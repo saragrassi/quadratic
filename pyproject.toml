@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "quadratic"
+version = "0.1.0"
+description = "Solve quadratic equation"
+authors = ["Sara Grassi <sara.grassi@heig-vd.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+ruff = "^0.11.9"
+pytest = "^8.3.5"
+pytest-cov = "^6.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,11 @@
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+
+# Ruff linter cache
+.ruff_cache/
